@@ -19,6 +19,11 @@
 .navbar-brand {
   font-family: "Lobster", sans-serif;
   font-weight: 400;
+  padding: 3px 15px;
+}
+
+.navbar-brand:hover {
+  border: 2px solid white;
 }
 
 /*ASIDES */
@@ -48,6 +53,11 @@ h1 {
 
 .card {
   font-family: "Exo 2", sans-serif;
+}
+
+p {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
 }
 
 /*FOOTER */
