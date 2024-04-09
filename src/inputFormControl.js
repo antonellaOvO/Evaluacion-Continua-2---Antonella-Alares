@@ -23,3 +23,13 @@ function redireccionar(event) {
   window.location.href = "feedback-control.html?" + urlParams.toString();
 }
 formTwo.addEventListener("submit", redireccionar);
+
+// Para reproducir o pausar video
+let video = document.getElementById("myVideo");
+function playVid() {
+  video.play();
+}
+
+function pauseVid() {
+  video.pause();
+}
