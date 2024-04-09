@@ -11,15 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let introTwo = document.getElementById("intro-section-two");
   let introThree = document.getElementById("intro-section-three");
 
-  /*switch (true) {
-    case repeticionOne > 1 || repeticionTwo > 1 || repeticionThree > 1:
-      introTwo.textContent = `EJERCICIO "${ejercicioOne}" lo has realizado en total ${repeticionThree} repeticiones. A la próxima harás más repeticiones seguro!! 😉`;
-      introThree.textContent = `Mira los ejercicios que hemos seleccionado para ti, teniendo en cuenta tu dedicación de ${repeticionTwo}. Ayúdate con videos para saber en detalle como realizar estos ejercicios`;
-      break;
-    default:
-      alert(error);
-  }*/
-
   //Realizamos matriz para extraer el ejercicio y repeticion correcto en cada línea de feedback
   let ejercicios = [
     [ejercicioOne, repeticionOne],
