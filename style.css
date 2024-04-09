@@ -73,6 +73,21 @@ form {
   font-weight: 400;
 }
 
+#section-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#section-form div {
+  flex-grow: 1;
+}
+
+#intro-section-one,
+#rutina-title {
+  font-family: "ABeeZee", sans-serif;
+}
+
 /*FOOTER */
 
 footer {
