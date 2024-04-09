@@ -85,7 +85,7 @@
                 >
               </li>
               <li class="nav-item ps-5 pe-5">
-                <a class="nav-link" href="diseña-rutina.html"
+                <a class="nav-link active" href="diseña-rutina.html"
                   >Diseña tu rutina</a
                 >
               </li>
@@ -95,7 +95,7 @@
                 >
               </li>
               <li class="nav-item ps-5 pe-5">
-                <a class="nav-link active" href="ejercicios.html">Ejercicios</a>
+                <a class="nav-link" href="ejercicios.html">Ejercicios</a>
               </li>
             </ul>
           </div>
@@ -121,66 +121,242 @@
             </nav>
           </div>
           <div class="col-8">
-            <h1 class="mx-5 my-5 text-center">RUTINAS - EJERCICIOS</h1>
+            <h1 class="mx-5 mt-5 mb-1 text-center">DISEÑA TU RUTINA</h1>
             <div class="row mx-5 my-5">
-              <div class="col-12" id="rutina-listado"></div>
-              <div class="col-12" id="rutina-perder-peso">
-                <h2 class="my-5 text-light bg-dark">RUTINA PERDER PESO</h2>
-              </div>
-              <div class="col-12" id="rutina-detox">
-                <h2 class="my-5 text-light bg-dark">RUTINA DETOX</h2>
+              <div class="col-12">
+                <form class="form mx-5 my-5">
+                  <div class="mb-3">
+                    <legend class="mb-5">Hola!</legend>
+                    <label for="inputNombre" class="form-label">Nombre:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputNombre"
+                      placeholder="Tu nombre..."
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputEdad" class="form-label">Edad:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputEdad"
+                      placeholder="30"
+                    />
+                  </div>
+                  <div class="mb-5">
+                    <label for="exampleInputBurn" class="form-label"
+                      >TUS OBJETIVOS</label
+                    >
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Perder Peso
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Aumentar fuerza
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Mejorar Resistencia Cardiovascular
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Mejorar tu salud digestiva
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Fortalecer Glúteos
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="flexRadioDefault"
+                        id="flexRadioDefault1"
+                      />
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Marcar y definir musculatura
+                      </label>
+                    </div>
+                  </div>
+                  <hr />
+                  <h3 class="my-5" id="resultSolution">Your solution:</h3>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >I agree to these
+                      <a href="#">Terms & Conditions</a></label
+                    >
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-primary"
+                    id="submitThree"
+                  >
+                    Descubre tu Rutina
+                  </button>
+                </form>
               </div>
             </div>
-            <h1 class="mx-5 my-5 text-center">DESCUBRE RUTINAS</h1>
             <div class="row mx-5 my-5">
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/kalanchoe-img.webp"
+                    src="images/weight-routine-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">KALANCHOE MINI</h5>
+                    <h5 class="card-title">PERDER PESO</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Esta rutina acelerará tu metabolismo y tendrás pautas para
+                      realizar correctamente la rutina y aumentar su
+                      efectividad. Bajar la grasa corporal de manera saludable y
+                      sostenible.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/echeveria-pulidonis-img.webp"
+                    src="images/detox-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">ECHEVERIA PULIDONIS</h5>
+                    <h5 class="card-title">DETOX</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Una rutina de ejercicios detox puede ser una herramienta
+                      poderosa para mejorar tu salud digestiva y alcanzar tus
+                      objetivos de pérdida de peso. Combina cardio,
+                      entrenamiento de fuerza y yoga.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
+
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/lithops-img.webp"
+                    src="images/resistance-routine-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">LITHOPS</h5>
+                    <h5 class="card-title">
+                      MEJORAR RESISTENCIA CARDIOVASCULAR
+                    </h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      El corazón y los pulmones se fortalecen. Los ejercicios
+                      cardiovasculares pueden mejorar la resistencia y la salud
+                      del corazón, entre otras ventajas.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mx-5 my-5">
+              <div class="col-4 my-5">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/gluteos-img.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">GLÚTEOS</h5>
+                    <p class="card-text">
+                      Los glúteos son uno de los músculos más grandes y fuertes
+                      del cuerpo humano. Un entrenamiento de piernas es
+                      fundamental para lograr una transformación completa del
+                      cuerpo.
+                    </p>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 my-5">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/force-routine-img.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">AUMENTAR FUERZA</h5>
+                    <p class="card-text">
+                      Si no tienes experiencia diseñando tus propias rutinas de
+                      entrenamiento, aquí te explicamos una rutina de
+                      entrenamiento completa para que puedas trabajar todo tu
+                      cuerpo.
+                    </p>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4 my-5">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/marcar-definir-img.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">MARCAR Y DEFINIR</h5>
+                    <p class="card-text">
+                      Definir los músculos es uno de los objetivos más
+                      habituales de los gimnasios, junto a la pérdida de peso.
+                      Pero, a la hora de enfocar los objetivos, es frecuente que
+                      se cometan errores.
+                    </p>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
@@ -348,7 +524,7 @@
         </div>
       </div>
     </footer>
-    <script src="src/resultado.js"></script>
+
     <!-- Link Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

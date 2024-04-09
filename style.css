@@ -55,7 +55,8 @@ h1 {
   font-family: "Exo 2", sans-serif;
 }
 
-p {
+p,
+form {
   font-family: "ABeeZee", sans-serif;
   font-weight: 400;
 }

@@ -121,7 +121,84 @@
             </nav>
           </div>
           <div class="col-8">
-            <h1 class="mx-5 my-5 text-center">DESCUBRE RUTINAS</h1>
+            <h1 class="mx-5 mt-5 mb-1 text-center">DISEÑA TU RUTINA</h1>
+            <div class="row mx-5 my-5">
+              <div class="col-12">
+                <form class="form mx-5 my-5" id="formOne">
+                  <div class="mb-3">
+                    <legend class="mb-5">Hola!</legend>
+                    <label for="inputNombre" class="form-label">Nombre:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputNombre"
+                      placeholder="Tu nombre..."
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputEdad" class="form-label">Edad:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputEdad"
+                      placeholder="30"
+                    />
+                  </div>
+                  <div class="mb-5">
+                    <label for="objetivos" class="form-label mt-5"
+                      >TUS OBJETIVOS</label
+                    >
+                    <select class="ms-4" id="objetivos" name="objetivos">
+                      <option value="Perder Peso">Perder Peso</option>
+                      <option value="Mejorar Salud digestiva">
+                        Mejorar Salud digestiva
+                      </option>
+                      <option value="Mejorar Resistencia Cardiovascular">
+                        Mejorar Resistencia Cardiovascular
+                      </option>
+                      <option value="Mejorar Glúteos">Mejorar Glúteos</option>
+                      <option value="Aumentar Fuerza Muscular">
+                        Aumentar Fuerza Muscular
+                      </option>
+                      <option value="Marcar y Definir">Marcar y Definir</option>
+                    </select>
+                  </div>
+
+                  <div class="mb-5">
+                    <label for="frecuencia" class="form-label"
+                      >¿Cuántos días a la semana le vas a dedicar a tu
+                      rutina?</label
+                    >
+                    <select class="ms-4" id="frecuencia" name="frecuencia">
+                      <option value="1-2 días a la semana">
+                        1-2 días a la semana
+                      </option>
+                      <option value="2-3 días a la semana">
+                        2-3 días a la semana
+                      </option>
+                    </select>
+                  </div>
+                  <hr />
+                  <h3 class="my-5" id="resultSolution">
+                    Ánimo que se puede!!😉
+                  </h3>
+                  <div class="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >I agree to these
+                      <a href="#">Terms & Conditions</a></label
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Descubre tu rutina
+                  </button>
+                </form>
+              </div>
+            </div>
             <div class="row mx-5 my-5">
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
@@ -145,22 +222,23 @@
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/force-routine-img.jpg"
+                    src="images/detox-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">AUMENTAR FUERZA</h5>
+                    <h5 class="card-title">DETOX</h5>
                     <p class="card-text">
-                      Si no tienes experiencia diseñando tus propias rutinas de
-                      entrenamiento, aquí te explicamos una rutina de
-                      entrenamiento completa para que puedas trabajar todo tu
-                      cuerpo.
+                      Una rutina de ejercicios detox puede ser una herramienta
+                      poderosa para mejorar tu salud digestiva y alcanzar tus
+                      objetivos de pérdida de peso. Combina cardio,
+                      entrenamiento de fuerza y yoga.
                     </p>
                     <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
+
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
@@ -182,56 +260,64 @@
                 </div>
               </div>
             </div>
-            <h1 class="mx-5 my-5 text-center">DESCUBRE RUTINAS</h1>
+
             <div class="row mx-5 my-5">
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/kalanchoe-img.webp"
+                    src="images/gluteos-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">KALANCHOE MINI</h5>
+                    <h5 class="card-title">GLÚTEOS</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Los glúteos son uno de los músculos más grandes y fuertes
+                      del cuerpo humano. Un entrenamiento de piernas es
+                      fundamental para lograr una transformación completa del
+                      cuerpo.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
+
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/echeveria-pulidonis-img.webp"
+                    src="images/force-routine-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">ECHEVERIA PULIDONIS</h5>
+                    <h5 class="card-title">AUMENTAR FUERZA</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Si no tienes experiencia diseñando tus propias rutinas de
+                      entrenamiento, aquí te explicamos una rutina de
+                      entrenamiento completa para que puedas trabajar todo tu
+                      cuerpo.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
+
               <div class="col-4 my-5">
                 <div class="card" style="width: 18rem">
                   <img
-                    src="images/lithops-img.webp"
+                    src="images/marcar-definir-img.jpg"
                     class="card-img-top"
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title">LITHOPS</h5>
+                    <h5 class="card-title">MARCAR Y DEFINIR</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Definir los músculos es uno de los objetivos más
+                      habituales de los gimnasios, junto a la pérdida de peso.
+                      Pero, a la hora de enfocar los objetivos, es frecuente que
+                      se cometan errores.
                     </p>
-                    <a href="#" class="btn btn-primary">Find out more</a>
+                    <a href="#" class="btn btn-primary">EJERCICIOS</a>
                   </div>
                 </div>
               </div>
