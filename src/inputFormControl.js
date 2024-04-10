@@ -19,7 +19,7 @@ function redireccionar(event) {
   urlParams.append("repeticionTwo", inputRepeticionTwo);
   urlParams.append("repeticionThree", inputRepeticionThree);
 
-  // Redirect to the result page with URL parameters
+  // Redirigir a la página resultante con los Parámetros
   window.location.href = "feedback-control.html?" + urlParams.toString();
 }
 formTwo.addEventListener("submit", redireccionar);

@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
       let ejercicio = ejercicios[i][j];
       let repeticion = ejercicios[i][j + 1];
       let newLineEjercicio = document.createElement("h3");
+
+      /*Condicional para que descarte valores no definidos o valores que no sean números de los resultados de la variable "ejercicio" que te devuelve el loop*/
       if (ejercicio != undefined && ejercicio != Number(ejercicio)) {
         newLineEjercicio.textContent = `Ejercicio "${ejercicio}" lo has realizado en total ${repeticion} repeticiones. A la próxima harás más repeticiones seguro!! 😉`;
         newLineEjercicio.setAttribute("class", "my-5 p-3 rounded text-white");
