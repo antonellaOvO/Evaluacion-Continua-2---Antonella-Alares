@@ -1,17 +1,16 @@
-# Evaluacion-Continua-2---Antonella-Alares
+# 🏋️‍♀️ FITNESS APP 
 
-Ejercicio Evaluación Continua 2
+### Creación de Aplicación Web para Fitness
+
+![image](https://github.com/antonellaOvO/Evaluacion-Continua-2---Antonella-Alares/assets/125452008/b951d945-2a79-4bd8-95f6-2d564221ba93)
 
 
-Creación de Aplicación Web para Fitness
-
-
-Contexto:
+#### Contexto:
 
 Imagina que estás colaborando en el desarrollo de una aplicación web para una plataforma de fitness en línea. Se te ha asignado la tarea de implementar un planificador de entrenamiento que permita a los usuarios crear rutinas de ejercicio personalizadas, realizar un seguimiento de su progreso y recibir recomendaciones de entrenamiento basadas en sus objetivos y nivel de condición física.
 
 
-Descripción del ejercicio:
+#### Descripción:
 Desarrolla una página web que use un script en JavaScript para gestionar el planificador de entrenamiento en la aplicación web. El script debe permitir a los usuarios:
 
 - Crear rutinas de ejercicio personalizadas, seleccionando ejercicios de una lista predefinida o añadiendo ejercicios personalizados.
@@ -25,48 +24,7 @@ Desarrolla una página web que use un script en JavaScript para gestionar el pla
 *La página web puede ser sencilla pero tiene que ser coherente, usable y atractiva.
 
 
-
-Rúbrica de Evaluación:
-
-
-A nivel genérico para un nivel de desempeño Excelente se deben añadir 4 o más funcionalidades/opciones en cada punto, teniendo en cuenta la rúbrica de evaluación siguiente.
-
-
-Para un nivel de desempeño Aceptable se deben añadir de 1 a 3 funcionalidades/opciones en cada punto, teniendo en cuenta la rúbrica de evaluación siguiente.
-
-
-Para un nivel de desempeño Insuficiente significa no añadir ninguna funcionalidad/opción en ese punto o que las añadidas están mal implementadas o no son relevantes o coherentes.
-
-
-Basate en la rúbrica de evaluación siguiente:
-
-
-
-Criterio de Evaluación
-
-Atributos
-
-Nivel de Desempeño Excelente (75 -100)
-
-Nivel de Desempeño Aceptable (51 - 75)
-
-Nivel de Desempeño Insuficiente (0 - 50)
-
-Ponderación
-
-Creación de rutinas personalizadas
-
-Personalización de ejercicios, Variedad de opciones, Facilidad de uso
-
-Amplia personalización, gran variedad de opciones y facilidad de uso destacada.
-
-Alguna personalización y variedad de opciones, pero con cierta dificultad de uso.
-
-Falta de personalización y opciones limitadas.
-
-15%
-
-Establecimiento de objetivos
+#### Establecimiento de objetivos
 
 Claridad de objetivos, Variedad de objetivos, Utilidad práctica
 
@@ -76,9 +34,9 @@ Objetivos claros con alguna variedad, pero con utilidad práctica limitada.
 
 Falta de claridad en los objetivos y opciones limitadas.
 
-10%
 
-Seguimiento del progreso
+
+#### Seguimiento del progreso
 
 Registro de datos, Precisión del seguimiento, Utilidad de los datos
 
@@ -88,9 +46,9 @@ Registro de datos básico, seguimiento con cierta precisión y utilidad aceptabl
 
 Registro de datos limitado, seguimiento impreciso y poca utilidad de los datos.
 
-10%
 
-Información detallada sobre ejercicios
+
+#### Información detallada sobre ejercicios
 
 Claridad de la información, Complejidad de los detalles, Relevancia de los datos
 
@@ -100,9 +58,9 @@ Información clara con algunos detalles, aunque la complejidad y relevancia pued
 
 Información poco clara, detalles limitados y falta de relevancia en los datos proporcionados.
 
-10%
 
-Implementación de controles de entrenamiento
+
+#### Implementación de controles de entrenamiento
 
 Variedad de controles, Intuitividad, Funcionalidad avanzada
 
@@ -112,9 +70,9 @@ Alguna variedad en los controles, cierta intuitividad y algunas funcionalidades 
 
 Falta de variedad en los controles, falta de intuitividad y carencia de funcionalidades avanzadas.
 
-15%
 
-Integración de componentes multimedia
+
+#### Integración de componentes multimedia
 
 Calidad de los medios, Variedad de recursos, Utilidad de la integración
 
@@ -124,9 +82,9 @@ Calidad aceptable de los medios, cierta variedad en los recursos y utilidad bás
 
 Medios de baja calidad, falta de variedad en los recursos y poca utilidad en la integración.
 
-15%
 
-Gestión de errores
+
+#### Gestión de errores
 
 Identificación de errores, Claridad en la retroalimentación, Efectividad de las soluciones
 
@@ -136,9 +94,9 @@ Identificación adecuada de errores, retroalimentación clara y soluciones que f
 
 Detección limitada de errores, retroalimentación poco clara y soluciones poco efectivas.
 
-15%
 
-Diseño de la página
+
+#### Diseño de la página
 
 Atractivo visual, Usabilidad, Coherencia
 
